@@ -1,0 +1,11 @@
+def remove_duplicates_unsorted(arr):
+seen = set()
+unique_arr=[]
+for i in arr:
+not in seen:
+seen.add(i)
+unique_ arr.append(i)
+return unique_ arr
+arr=[4, 5,4, 5,8]
+print(arr)
+print(remove_duplicates_unsorted(arr)）
